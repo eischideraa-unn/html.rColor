@@ -24,5 +24,5 @@ The game challenges players to pick the right color range that matches a randoml
 
 
 How to play ▶:
-use the Live link:
-view code with the Repo link:
+use the Live link: https://eischideraa-unn.github.io/html.rColor/
+view code with the Repo link: https://github.com/eischideraa-unn/html.rColor.git
