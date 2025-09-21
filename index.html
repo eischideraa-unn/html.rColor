@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cool Color Picker Game</title>
+  </head>
+  <body>
+    <h1>Cool Color Picker Game</h1>
+    <div class="game-container">
+      <button class="purple" onclick="checkGuess('purple')">
+        Purple
+      </button>
+      <button class="green" onclick="checkGuess('green')">Green</button>
+      <button class="orange" onclick="checkGuess('orange')">
+        Orange
+      </button>
+    </div>
+
+    <!-- Custom Dialog -->
+    <div id="dialogBox" class="dialog">
+      <p id="dialogMessage"></p>
+      <button onclick="closeDialog()">OK</button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
